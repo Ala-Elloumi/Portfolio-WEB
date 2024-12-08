@@ -1,0 +1,142 @@
+*{
+    margin: auto;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #17181C;
+   
+}
+  
+.navbar {
+    width: 100%;
+    height: 70px;
+    background-color: #27272A;
+    color: white;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.navbar td {
+    padding: 10px 20px;
+}
+
+.nom {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: left;
+    width: 20%;
+}
+
+.nom a{
+    text-decoration: none;
+    color: white;
+}
+
+.lien {
+    text-align: center;
+    width: 60%;
+}
+
+.lien a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    transition: color 0.3s ease;
+}
+
+.lien a:hover {
+    color: #6EE7B7;
+}
+
+.iconnes {
+    text-align: right;
+    width: 20%;
+}
+
+.lightLogo{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.changerMode{
+    border: none;
+    background-color: transparent;
+}
+
+
+main { 
+    color:white;
+    text-align: center; 
+    width: 1000px;
+} 
+
+.section h1 { 
+    margin-top:50px;
+    font-size: 3rem;
+    margin-bottom: 30px; 
+}
+
+.container {
+    padding: 20px;
+}
+.education-item {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #333;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    
+}
+.education-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+.education-item h2 {
+    margin: 0 0 10px;
+    font-size: 1.5rem;
+    color: #047857;
+}
+
+.education-item p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+    color: #e0e0e0;
+}
+.education-item img {
+    display: inline-block;
+    border: 6px solid #047857;
+    height: 300px;
+    width: 400px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.i1{
+    display: block;
+    float: left;
+    margin-left: 50px;
+}
+.i2{
+    display: block;
+    float: right;
+    margin-right: 50px;
+}
+
+.footer { 
+    width: 100%;
+    height: 70px;
+    background-color: #27272A; 
+    color: white; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-size: 1.2em; 
+    font-weight: bold; 
+    
+} 
